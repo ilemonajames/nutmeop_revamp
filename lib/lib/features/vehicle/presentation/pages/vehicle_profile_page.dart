@@ -23,7 +23,7 @@ class VehicleProfilePage extends StatelessWidget {
             const TextField(decoration: InputDecoration(labelText: 'Year')),
             const SizedBox(height: 12),
             DropdownButtonFormField<String>(
-              value: 'ICE',
+              initialValue: 'ICE',
               items: const [
                 DropdownMenuItem(value: 'ICE', child: Text('ICE (Petrol/Diesel)')),
                 DropdownMenuItem(value: 'HYBRID', child: Text('Hybrid')),

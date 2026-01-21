@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../../core/routing/route_names.dart';
@@ -8,7 +8,7 @@ class RoleSelectPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final roles = const [
+    const roles = [
       'Vehicle Owner',
       'Mechanic',
       'Spare Parts Dealer',
